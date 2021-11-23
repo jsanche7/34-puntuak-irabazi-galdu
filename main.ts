@@ -21,12 +21,10 @@ basic.forever(function () {
     if (Jokalaria.isTouching(Pilota_1)) {
         game.addScore(1)
         Pilota_1.delete()
-        basic.showNumber(game.score())
         basic.pause(1000)
     }
     if (Jokalaria.isTouching(Pilota_2)) {
         game.addScore(1)
         Pilota_2.delete()
-        basic.showNumber(game.score())
     }
 })
